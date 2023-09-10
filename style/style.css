@@ -1,0 +1,150 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+.text-header {
+    border-bottom: 3px solid crimson;
+}
+.btn:hover {
+    background-color: crimson;
+    border-radius: 20px;
+    transition: all ease .5s;
+}
+.col-blue {
+    color: #017dbf;
+}
+/* start header */
+.navbar {
+    background-color: #127dcf !important;
+}
+.myicon {
+    color: #127dcf;
+    font-size: 30px;
+}
+/* end header */
+/* start offcanvas */
+.offcanvas .offcan-img {
+    width: 250px !important;
+    height: 300px !important;
+    transition: ease .7s;
+}
+.offcanvas .off-price {
+    color: #017dbf;
+}
+.offcan-header {
+    color: crimson;
+}
+.offcanvas .offcan-img:hover {
+    transform: skew(-5deg);
+}
+/* end offcanvas */
+/* start carousel */
+.carousel-item img {
+    height: 100vh;
+}
+.carousel-caption {
+    background-color: rgba(151, 193, 224, 0.4);
+    border-radius: 20px;
+    bottom: 9%;
+    padding: 25px;
+}
+.carousel-caption h2 {
+    font-size: 35px;
+    margin-bottom: 20px;;
+}
+.carousel-caption p {
+    font-size: 18px;
+}
+.carousel-caption:hover {
+    background-color: rgba(48, 97, 223, 0.4);
+    transition: ease .7s;
+}
+.carousel-indicators button {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    background-color: #017dbf !important;
+}
+.carousel-indicators button:hover {
+    background-color: crimson !important;
+}
+/* end carousel */
+/* start product */
+.product .icon:hover {
+    color: crimson;
+    transition: .3s;
+    cursor: pointer;
+}
+.product .card img {
+    transition: .5s all ease;
+    overflow: hidden;
+}
+.product .card img:hover {
+    transform: scale(1.05);
+}
+/* end product */
+/* start contact */
+.contact {
+    background-image: url(../images/contact.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 60vh; */
+}
+.contact .input-contact {
+    border-radius: 0px !important;
+}
+.contact .btn {
+    border-radius: 20px 0 0 20px !important;
+    width: 150px;
+    
+}
+/* end contact */
+/* start bestselling */
+.bestselling .crd img:hover {
+    transform: rotate(5deg) scale(1.1);
+    transition: ease .5s;
+}
+/* end bestselling */
+/* start contract */
+.contract .accordion-item button {
+    background-color: #017dbf;
+    color: white;
+}
+.contract .accordion-item button::after {
+    content: "";
+    display: none;
+}
+/* end contract */
+/* start services */
+.services .container{
+    margin-top: 130px !important;
+}
+/* end services */
+/* start footer */
+footer {
+    background-color: #127DCF;
+    color: white;
+}
+/* end footer */
+/* start scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #eee; 
+    /* border-radius: 10px; */
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #017dbf; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: crimson; 
+  }
+/* end scrollbar */
